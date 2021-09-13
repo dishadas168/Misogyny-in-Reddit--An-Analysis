@@ -48,24 +48,24 @@
 **Experimental Setup**
 - Lexicon of Misogynistic words had a selection from these categories:  Belittling, Flipping the narrative, homophobia, hostility, patriarchy, physical violence, racism, sexual violence and stoicism
 - The analysis was done on Google Colaboratory and Kaggle
-Runtime Type: Python3
-Hardware Accelerator: GPU
-RAM: 12 GB
+    - Runtime Type: Python3
+    - Hardware Accelerator: GPU
+    - RAM: 12 GB
 
 **Data Analysis Approach**
 - For the sake of simplicity, data analysis of one Reddit community has been presented here.
 - Reddit community information::
-Community:  AskReddit
-Date range: 2008-02-08 to 2009-01-24
-Number of posts: 1000
-Avg number of comments per post: 137
+    - Community:  AskReddit
+    - Date range: 2008-02-08 to 2009-01-24
+    - Number of posts: 1000
+    - Avg number of comments per post: 137
 
 **Data Analysis and Results**
 - Detected number of misogynist words used in comments section of posts and plotted their frequency over time. This was done for each community, and for each category of misogyny from the lexicon.
 - Observations:
-Growing trend over the year
-Could be due to more user engagement in the Christmas  holiday season
-Words associated with Physical Violence and Hostility see a steady growth
+    - Growing trend over the year
+    - Could be due to more user engagement in the Christmas  holiday season
+    - Words associated with Physical Violence and Hostility see a steady growth
 - Found the percentage of misogynous posts for each category of misogyny. 
 - A misogynous post has a comments section that contains any misogynistic words found in the lexicon.
 - User most  likely to come across references to  Physical Violence (80%) , Hostility (78%) , Belittling (48%) and Racism (47%). 
