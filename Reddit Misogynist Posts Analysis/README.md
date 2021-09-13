@@ -1,29 +1,29 @@
 # Identifying Misogynistic Rhetoric Within Advice-Seeking Communities
 
-Reddit in Popular Culture:
+**Reddit in Popular Culture:**
 - Reddit has been consistently among the top ten most frequented websites for the last few years
 - Posts from the website often make way from the front page to mainstream media
 - Its anonymity helps users engage in discourse freely
 
 
-Why should anybody care?
+**Why should anybody care?**
 - Advice subreddits have been increasing in activity and often make their way to the front page
 - With anonymity assured, users are free to influence hate speech 
 - For the original advice seeker, either they may be turned off from Reddit as a platform, or may choose to believe negative discourse
 
-Baseline Approach and Description
+**Baseline Approach and Description**
 - The approach used by Farrell et al. in their paper, Exploring Misogyny across the Manosphere in Reddit, was used as a baseline for this project
 - Communities selected identified with men’s rights activism and incel idealism
 - To characterize the misogyny they built 9 lexicons for the different levels of hate speech
 - These constructed lexicons were used to calculate the amount of misogynistic posts per community, the amount of users posting such content per community, the top terms in each community, and the evolution over time of these communities for the different levels of misogyny. 
 
-Project Approach
+**Project Approach**
 - The communities analyzed by the baseline work were already infamous for their ideologies
 - We aim to analyze advice- seeking communities and monitor spread of hate speech and toxic ideologies within these communities
 - ‘Community Interaction and Conflict on the Web’ by Kumar et. al showed that users engagement drops when they start facing negativity in certain communities
 - We seek to verify this within selected Reddit communities
 
-Novelty
+**Novelty**
 - We seek to explore the effect of hate speech within the advice seeking community
 - The baseline approach performed the following analysis: 
     - Analyzing the most frequent misogynous words
@@ -35,24 +35,24 @@ Novelty
     - Whether unpopular posts receive more negativity 
     - Where do the users with negative submissions post most frequently in
 
-Data Acquisition
+**Data Acquisition**
 - Data from following Reddit communities were acquired: AskReddit, relationships, relationship_advice, AmITheAsshole and OffMyChest.
 - Used a Reddit Search Application, Pushshift.io, to mine the posts from five subreddits and chose the top 1000
 - Mined comments under posts using Reddit’s API The Python Reddit Wrapper(PRAW)
 - Data Preprocessing was performed to eliminate irrelevant columns and convert data in the csv file to suitable formats (DateTime Objects, sorting, etc.)
 
-Data Properties:
+**Data Properties**
 - Features of data used in this project:
 
 
-Experimental Setup:
+**Experimental Setup**
 - Lexicon of Misogynistic words had a selection from these categories:  Belittling, Flipping the narrative, homophobia, hostility, patriarchy, physical violence, racism, sexual violence and stoicism
 - The analysis was done on Google Colaboratory and Kaggle
 Runtime Type: Python3
 Hardware Accelerator: GPU
 RAM: 12 GB
 
-Data Analysis Approach
+**Data Analysis Approach**
 - For the sake of simplicity, data analysis of one Reddit community has been presented here.
 - Reddit community information::
 Community:  AskReddit
@@ -60,7 +60,7 @@ Date range: 2008-02-08 to 2009-01-24
 Number of posts: 1000
 Avg number of comments per post: 137
 
-Data Analysis and Results
+**Data Analysis and Results**
 - Detected number of misogynist words used in comments section of posts and plotted their frequency over time. This was done for each community, and for each category of misogyny from the lexicon.
 - Observations:
 Growing trend over the year
@@ -83,10 +83,10 @@ Words associated with Physical Violence and Hostility see a steady growth
 - So what communities do the users engaging in negative discourse contribute the most to?
 - These communities have been on Southern Poverty Law Center’s hatewatch
 
-Baseline Result Comparison
+**Baseline Result Comparison**
 
 
-Future Work
+**Future Work**
 - Due to time restrictions, we could only perform the analysis on 5 subreddits. The work can be extended to other subreddits to gain a larger dataset.
 - Additionally, more in-depth analysis can be made to identify a trend in the content projected by a given user to spot possibilities of severe problems.
 - Algorithms using the concepts of Machine Learning and Deep Learning can be incorporated to train a model on the dataset to alert moderators quicker, or indicate to the user how seriously to take advice espoused by fellow Redditors.
