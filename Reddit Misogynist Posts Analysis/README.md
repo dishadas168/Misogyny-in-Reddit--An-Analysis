@@ -3,13 +3,19 @@
 **Reddit in Popular Culture:**
 
 
-Reddit has been consistently among the top ten most frequented websites for the last few years. Posts from the website often make way from the front page to mainstream media. Its anonymity helps users engage in discourse freely  
+Reddit has been consistently among the top ten most frequented websites for the last few years. Posts from the website often make way from the front page to mainstream media. Its anonymity helps users engage in discourse freely.
+
+
 ![reddit in pop culture](images/img1.jpg)  
 ![reddit in pop culture](images/img2.jpg)  
 ![reddit in pop culture](images/img3.jpg)  
 
+
 **Why should anybody care?**
+
+
 Advice subreddits have been increasing in activity and often make their way to the front page. With anonymity assured, users are free to influence hate speech. For the original advice seeker, either they may be turned off from Reddit as a platform, or may choose to believe negative discourse.
+
 
 ![img4](images/img4.png)
 
