@@ -107,8 +107,7 @@ Then we tried to find the correlation between frequency of misogynistic words in
 ![img11](images/img11.png)
 
 
-The figure below can be interpreted to show that high number of comments and low score shows that the post received a lot of downvotes. 
-- Posts having lesser score than the number of comments generally have a high percentage of misogynous words (0.2% - 0.5%)in the comments section  
+The figure below can be interpreted to show that there is a huge portion of posts that received a lot of downvotes. This can be seen from a non-significant crowding in the top left section of the chart. Posts having lesser score than the number of comments generally have a high percentage of misogynous words (0.2% - 0.5%)in the comments section.
 
 ![img12](images/img12.png)
 
