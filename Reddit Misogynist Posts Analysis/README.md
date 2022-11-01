@@ -53,16 +53,17 @@ The communities analyzed by the baseline work were already infamous for their id
 
 **Data Properties**
 
+Features of data used in this project:  
 
-- Features of data used in this project:  
 ![img6](images/img6.JPG)
 
 
 **Experimental Setup**
 
 
-- Lexicon of Misogynistic words had a selection from these categories:  Belittling, Flipping the narrative, homophobia, hostility, patriarchy, physical violence, racism, sexual violence and stoicism
-- The analysis was done on Google Colaboratory and Kaggle
+Lexicon of Misogynistic words had a selection from these categories:  Belittling, Flipping the narrative, homophobia, hostility, patriarchy, physical violence, racism, sexual violence and stoicism.
+
+The analysis was done on Google Colaboratory and Kaggle
     - Runtime Type: Python3
     - Hardware Accelerator: GPU
     - RAM: 12 GB  
