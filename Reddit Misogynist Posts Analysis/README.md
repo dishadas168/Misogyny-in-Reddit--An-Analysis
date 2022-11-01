@@ -88,43 +88,51 @@ Avg number of comments per post: 137
 
 ## Data Analysis and Results
 
+---
+
 Misogynist words were detected in the comments section. Their frequencies were plotted over time as seen in the figure below. This was done for each community, and for each category of misogyny from the lexicon.
 
 It's observed that there is a growing trend over the year. It could be due to more user engagement in the Christmas holiday season. It's interesting to note that words associated with Physical Violence and Hostility see a steady growth.
 
 ![img8](images/img8.png)
 
+---
 
 In the figure below is displayed the percentage of misogynous posts for each category of misogyny. We can interprete from this observation that a user is most  likely to come across references to  Physical Violence (80%) , Hostility (78%) , Belittling (48%) and Racism (47%).   
 
 ![img9](images/img9.JPG)
 
+---
 
 Below we find the top misogynous words and their frequencies used across all categories. The most frequently used words include 'Hate', 'Hit', 'Cut', 'Kill' etc. These words point to some violent attitudes in the comments section of a community that elicits further hateful discussions. Top 5 words from some popular categories are given below.
 
 ![img10](images/img10.JPG)
 
+---
 
 Then we tried to find the correlation between frequency of misogynistic words in the title of post and comments section of post. A linear relation is not a surprise because questions asked in relation to misogynous content invited more misogynous discussions in the comments section. This could also indicate that opposite views may not be invited in the comments section.
 
 ![img11](images/img11.png)
 
+---
 
 The figure below can be interpreted to show that there is a huge portion of posts that received a lot of downvotes. This can be seen from a non-significant crowding in the top left section of the chart. Posts having lesser score than the number of comments generally have a high percentage of misogynous words (0.2% - 0.5%)in the comments section.
 
 ![img12](images/img12.png)
 
+---
 
 Number of misogynous words found in posts for users above 18  and under 18 was plotted. For AskReddit community, underage users were exposed to less hostile comments as compared to users above 18  
 
 ![img13](images/img13.png)
 
+---
 
 So what communities do the users engaging in negative discourse contribute the most to? In the figure below, we tried to answer this question. These communities have been on Southern Poverty Law Center’s hatewatch.
 
 ![img14](images/img14.png)
 
-
+---
 
 **Baseline Result Comparison**  
 
@@ -132,12 +140,13 @@ Baseline Results:
 
 ![img15](images/img15.jpg)  
 
+---
 
 Our Results:  
 
 ![img16](images/img16.png)  
 
-
+---
 
 **Future Work**
 
