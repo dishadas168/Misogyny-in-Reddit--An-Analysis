@@ -1,6 +1,9 @@
 # Identifying Misogynistic Rhetoric Within Advice-Seeking Communities
 
-***Reddit in Popular Culture:***
+## Project Description
+
+
+**Reddit in Popular Culture:**
 
 
 Reddit has been consistently among the top ten most frequented websites for the last few years. Posts from the website often make way from the front page to mainstream media. Its anonymity helps users engage in discourse freely.
@@ -83,7 +86,7 @@ Number of posts: 1000
 Avg number of comments per post: 137
 
 
-**Data Analysis and Results**
+## Data Analysis and Results
 
 Misogynist words were detected in the comments section. Their frequencies were plotted over time as seen in the figure below. This was done for each community, and for each category of misogyny from the lexicon.
 
