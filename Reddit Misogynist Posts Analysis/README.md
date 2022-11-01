@@ -1,6 +1,6 @@
 # Identifying Misogynistic Rhetoric Within Advice-Seeking Communities
 
-*Reddit in Popular Culture:*
+**Reddit in Popular Culture:**
 
 
 Reddit has been consistently among the top ten most frequented websites for the last few years. Posts from the website often make way from the front page to mainstream media. Its anonymity helps users engage in discourse freely.
@@ -102,27 +102,27 @@ Below we find the top misogynous words and their frequencies used across all cat
 ![img10](images/img10.JPG)
 
 
-- Found correlation between frequency of misogynistic words in the title of post and comments section of post
-- Found a linear relation
-- Questions asked in relation to misogynous content invited more misogynous discussions in the comments section  
+Then we tried to find the correlation between frequency of misogynistic words in the title of post and comments section of post. A linear relation is not a surprise because questions asked in relation to misogynous content invited more misogynous discussions in the comments section. This could also indicate that opposite views may not be invited in the comments section.
 
 ![img11](images/img11.png)
 
-- High number of comments and low score shows that the post received a lot of downvotes. 
+
+The figure below can be interpreted to show that high number of comments and low score shows that the post received a lot of downvotes. 
 - Posts having lesser score than the number of comments generally have a high percentage of misogynous words (0.2% - 0.5%)in the comments section  
 
 ![img12](images/img12.png)
 
-- Number of misogynous words found in posts for users above 18  and under 18 was plotted
-- For AskReddit community, underage users were exposed to less hostile comments as compared to users above 18  
+
+Number of misogynous words found in posts for users above 18  and under 18 was plotted. For AskReddit community, underage users were exposed to less hostile comments as compared to users above 18  
 
 ![img13](images/img13.png)
 
 
-- So what communities do the users engaging in negative discourse contribute the most to?
-- These communities have been on Southern Poverty Law Center’s hatewatch  
+So what communities do the users engaging in negative discourse contribute the most to? In the figure below, we tried to answer this question. These communities have been on Southern Poverty Law Center’s hatewatch.
 
 ![img14](images/img14.png)
+
+
 
 **Baseline Result Comparison**  
 
@@ -130,9 +130,12 @@ Baseline Results:
 
 ![img15](images/img15.jpg)  
 
+
 Our Results:  
 
 ![img16](images/img16.png)  
+
+
 
 **Future Work**
 
