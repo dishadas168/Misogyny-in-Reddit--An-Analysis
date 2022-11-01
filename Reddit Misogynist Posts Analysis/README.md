@@ -19,19 +19,18 @@ Advice subreddits have been increasing in activity and often make their way to t
 
 ![img4](images/img4.png)
 
+
 **Baseline Approach and Description**
-- The approach used by Farrell et al. in their paper, Exploring Misogyny across the Manosphere in Reddit, was used as a baseline for this project
-- Communities selected identified with men’s rights activism and incel idealism
-- To characterize the misogyny they built 9 lexicons for the different levels of hate speech
-- These constructed lexicons were used to calculate the amount of misogynistic posts per community, the amount of users posting such content per community, the top terms in each community, and the evolution over time of these communities for the different levels of misogyny. 
+
+The approach used by Farrell et al. in their paper, Exploring Misogyny across the Manosphere in Reddit, was used as a baseline for this project. Communities selected identified with men’s rights activism and incel idealism. To characterize the misogyny they built 9 lexicons for the different levels of hate speech. These constructed lexicons were used to calculate the amount of misogynistic posts per community, the amount of users posting such content per community, the top terms in each community, and the evolution over time of these communities for the different levels of misogyny. 
+
 
 **Project Approach**
-- The communities analyzed by the baseline work were already infamous for their ideologies
-- We aim to analyze advice- seeking communities and monitor spread of hate speech and toxic ideologies within these communities
-- ‘Community Interaction and Conflict on the Web’ by Kumar et. al showed that users engagement drops when they start facing negativity in certain communities
-- We seek to verify this within selected Reddit communities  
+
+The communities analyzed by the baseline work were already infamous for their ideologies. We aim to analyze advice- seeking communities and monitor spread of hate speech and toxic ideologies within these communities. ‘Community Interaction and Conflict on the Web’ by Kumar et. al showed that users engagement drops when they start facing negativity in certain communities. We seek to verify this within selected Reddit communities.
 
 ![img5](images/img5.jpg)
+
 
 **Novelty**
 - We seek to explore the effect of hate speech within the advice seeking community
@@ -45,17 +44,23 @@ Advice subreddits have been increasing in activity and often make their way to t
     - Whether unpopular posts receive more negativity 
     - Where do the users with negative submissions post most frequently in
 
+
 **Data Acquisition**
+
 - Data from following Reddit communities were acquired: AskReddit, relationships, relationship_advice, AmITheAsshole and OffMyChest.
 - Used a Reddit Search Application, Pushshift.io, to mine the posts from five subreddits and chose the top 1000
 - Mined comments under posts using Reddit’s API The Python Reddit Wrapper(PRAW)
-- Data Preprocessing was performed to eliminate irrelevant columns and convert data in the csv file to suitable formats (DateTime Objects, sorting, etc.)
 
 **Data Properties**
+
+
 - Features of data used in this project:  
 ![img6](images/img6.JPG)
 
+
 **Experimental Setup**
+
+
 - Lexicon of Misogynistic words had a selection from these categories:  Belittling, Flipping the narrative, homophobia, hostility, patriarchy, physical violence, racism, sexual violence and stoicism
 - The analysis was done on Google Colaboratory and Kaggle
     - Runtime Type: Python3
@@ -63,6 +68,7 @@ Advice subreddits have been increasing in activity and often make their way to t
     - RAM: 12 GB  
 
 ![img7](images/img7.JPG)
+
 
 **Data Analysis Approach**
 - For the sake of simplicity, data analysis of one Reddit community has been presented here.
