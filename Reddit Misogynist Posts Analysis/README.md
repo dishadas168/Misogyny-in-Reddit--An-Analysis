@@ -13,6 +13,7 @@ Reddit has been consistently among the top ten most frequented websites for the 
 ![reddit in pop culture](images/img2.jpg)  
 ![reddit in pop culture](images/img3.jpg)  
 
+---
 
 **Why should anybody care?**
 
@@ -22,11 +23,13 @@ Advice subreddits have been increasing in activity and often make their way to t
 
 ![img4](images/img4.png)
 
+---
 
 **Baseline Approach and Description**
 
 The approach used by Farrell et al. in their paper, Exploring Misogyny across the Manosphere in Reddit, was used as a baseline for this project. Communities selected identified with men’s rights activism and incel idealism. To characterize the misogyny they built 9 lexicons for the different levels of hate speech. These constructed lexicons were used to calculate the amount of misogynistic posts per community, the amount of users posting such content per community, the top terms in each community, and the evolution over time of these communities for the different levels of misogyny. 
 
+---
 
 **Project Approach**
 
@@ -34,6 +37,7 @@ The communities analyzed by the baseline work were already infamous for their id
 
 ![img5](images/img5.jpg)
 
+---
 
 **Novelty**
 
@@ -48,6 +52,7 @@ We introduce 4 new avenues of analysis:
     - Whether unpopular posts receive more negativity 
     - Where do the users with negative submissions post most frequently in
 
+---
 
 **Data Acquisition**
 
@@ -55,6 +60,7 @@ Data from following Reddit communities were acquired: AskReddit, relationships, 
 Reddit Search Application, Pushshift.io, was used to mine the posts from five subreddits and the top 1000 posts were chosen.
 Mined comments under posts using Reddit’s API The Python Reddit Wrapper(PRAW).
 
+---
 
 **Data Properties**
 
@@ -62,6 +68,7 @@ Features of data used in this project:
 
 ![img6](images/img6.JPG)
 
+---
 
 **Experimental Setup**
 
@@ -75,6 +82,7 @@ The analysis was done on Google Colaboratory and Kaggle
 
 ![img7](images/img7.JPG)
 
+---
 
 **Data Analysis Approach**
 
@@ -85,6 +93,7 @@ Date range: 2008-02-08 to 2009-01-24
 Number of posts: 1000
 Avg number of comments per post: 137
 
+---
 
 ## Data Analysis and Results
 
@@ -140,7 +149,6 @@ Baseline Results:
 
 ![img15](images/img15.jpg)  
 
----
 
 Our Results:  
 
