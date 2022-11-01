@@ -72,14 +72,17 @@ The analysis was done on Google Colaboratory and Kaggle
 
 
 **Data Analysis Approach**
-- For the sake of simplicity, data analysis of one Reddit community has been presented here.
-- Reddit community information::
-    - Community:  AskReddit
-    - Date range: 2008-02-08 to 2009-01-24
-    - Number of posts: 1000
-    - Avg number of comments per post: 137
+
+For the sake of simplicity, data analysis of one Reddit community has been presented here.
+Reddit community information::
+Community:  AskReddit
+Date range: 2008-02-08 to 2009-01-24
+Number of posts: 1000
+Avg number of comments per post: 137
+
 
 **Data Analysis and Results**
+
 - Detected number of misogynist words used in comments section of posts and plotted their frequency over time. This was done for each community, and for each category of misogyny from the lexicon.
 - Observations:
     - Growing trend over the year
@@ -124,16 +127,20 @@ The analysis was done on Google Colaboratory and Kaggle
 ![img14](images/img14.png)
 
 **Baseline Result Comparison**  
+
 Baseline Results:  
+
 ![img15](images/img15.jpg)  
 
 Our Results:  
+
 ![img16](images/img16.png)  
 
 **Future Work**
-- Due to time restrictions, we could only perform the analysis on 5 subreddits. The work can be extended to other subreddits to gain a larger dataset.
-- Additionally, more in-depth analysis can be made to identify a trend in the content projected by a given user to spot possibilities of severe problems.
-- Algorithms using the concepts of Machine Learning and Deep Learning can be incorporated to train a model on the dataset to alert moderators quicker, or indicate to the user how seriously to take advice espoused by fellow Redditors.
+
+Due to time restrictions, we could only perform the analysis on 5 subreddits. The work can be extended to other subreddits to gain a larger dataset.
+Additionally, more in-depth analysis can be made to identify a trend in the content projected by a given user to spot possibilities of severe problems.
+Algorithms using the concepts of Machine Learning and Deep Learning can be incorporated to train a model on the dataset to alert moderators quicker, or indicate to the user how seriously to take advice espoused by fellow Redditors.
 
 
 
