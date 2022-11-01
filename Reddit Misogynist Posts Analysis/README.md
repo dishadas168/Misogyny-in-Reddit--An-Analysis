@@ -33,6 +33,7 @@ The communities analyzed by the baseline work were already infamous for their id
 
 
 **Novelty**
+
 - We seek to explore the effect of hate speech within the advice seeking community
 - The baseline approach performed the following analysis: 
     - Analyzing the most frequent misogynous words
@@ -50,6 +51,7 @@ The communities analyzed by the baseline work were already infamous for their id
 - Data from following Reddit communities were acquired: AskReddit, relationships, relationship_advice, AmITheAsshole and OffMyChest.
 - Used a Reddit Search Application, Pushshift.io, to mine the posts from five subreddits and chose the top 1000
 - Mined comments under posts using Reddit’s API The Python Reddit Wrapper(PRAW)
+
 
 **Data Properties**
 
@@ -83,11 +85,9 @@ Avg number of comments per post: 137
 
 **Data Analysis and Results**
 
-- Detected number of misogynist words used in comments section of posts and plotted their frequency over time. This was done for each community, and for each category of misogyny from the lexicon.
-- Observations:
-    - Growing trend over the year
-    - Could be due to more user engagement in the Christmas  holiday season
-    - Words associated with Physical Violence and Hostility see a steady growth  
+Misogynist words were detected in the comments section. Their frequencies were plotted over time as seen in the figure below. This was done for each community, and for each category of misogyny from the lexicon.
+
+It's observed that there is a growing trend over the year. It could be due to more user engagement in the Christmas holiday season. It's interesting to note that words associated with Physical Violence and Hostility see a steady growth.
 
 ![img8](images/img8.png)
 
