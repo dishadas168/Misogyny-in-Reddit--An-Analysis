@@ -34,12 +34,12 @@ The communities analyzed by the baseline work were already infamous for their id
 
 **Novelty**
 
-- We seek to explore the effect of hate speech within the advice seeking community
-- The baseline approach performed the following analysis: 
+We seek to explore the effect of hate speech within the advice seeking community
+The baseline approach performed the following analysis: 
     - Analyzing the most frequent misogynous words
     - Finding the percentage of misogynous posts
     - Finding the frequency of misogynous words used over time
-- We introduce 4 new avenues of analysis: 
+We introduce 4 new avenues of analysis: 
     - Analysis of negativity for over 18 and under 18 users
     - Relation between negativity in title and comments
     - Whether unpopular posts receive more negativity 
@@ -48,9 +48,9 @@ The communities analyzed by the baseline work were already infamous for their id
 
 **Data Acquisition**
 
-- Data from following Reddit communities were acquired: AskReddit, relationships, relationship_advice, AmITheAsshole and OffMyChest.
-- Used a Reddit Search Application, Pushshift.io, to mine the posts from five subreddits and chose the top 1000
-- Mined comments under posts using Reddit’s API The Python Reddit Wrapper(PRAW)
+Data from following Reddit communities were acquired: AskReddit, relationships, relationship_advice, AmITheAsshole and OffMyChest.
+Reddit Search Application, Pushshift.io, was used to mine the posts from five subreddits and the top 1000 posts were chosen.
+Mined comments under posts using Reddit’s API The Python Reddit Wrapper(PRAW).
 
 
 **Data Properties**
@@ -91,18 +91,16 @@ It's observed that there is a growing trend over the year. It could be due to mo
 
 ![img8](images/img8.png)
 
-- Found the percentage of misogynous posts for each category of misogyny. 
-- A misogynous post has a comments section that contains any misogynistic words found in the lexicon.
-- User most  likely to come across references to  Physical Violence (80%) , Hostility (78%) , Belittling (48%) and Racism (47%).   
+
+In the figure below is displayed the percentage of misogynous posts for each category of misogyny. We can interprete from this observation that a user is most  likely to come across references to  Physical Violence (80%) , Hostility (78%) , Belittling (48%) and Racism (47%).   
 
 ![img9](images/img9.JPG)
 
-- Found the top misogynous words and their frequencies used across all categories.
-- Most frequently used words include Hate, Hit, Cut, Kill etc.
-- These words point to some violent attitudes in the comments section of a community that elicits further hateful discussions.
-- Top 5 words from some popular categories are given below  
+
+Below we find the top misogynous words and their frequencies used across all categories. The most frequently used words include 'Hate', 'Hit', 'Cut', 'Kill' etc. These words point to some violent attitudes in the comments section of a community that elicits further hateful discussions. Top 5 words from some popular categories are given below.
 
 ![img10](images/img10.JPG)
+
 
 - Found correlation between frequency of misogynistic words in the title of post and comments section of post
 - Found a linear relation
